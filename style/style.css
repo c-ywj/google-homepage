@@ -8,15 +8,31 @@ body {
 	padding: 0;
 	border: 1px solid black;
 	width: 100%;
-	position: absolute;
 }
 
 .topbanner {
 	float: right;
-}
+}	
 
 .container2 {
-	padding: 50px 0;
-	border: 1px solid red;
+	padding: 20px 0;
+	border: 1px solid black;
 }
 
+.biglogo img {
+	display: block;
+	margin: 0 auto;
+}
+
+.searchbar input{
+	height: 35px;
+	width: 100%;
+}
+
+.recent .box {
+	display: inline-block;
+	height: 180px;
+	width: 180px;
+	margin: 5px;
+	border: 1px	solid blue;
+}
